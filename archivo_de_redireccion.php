@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Este archivo debe ser convertido en el index.html de la raíz del hosting una vez se descomprima el proyecto en su respectiva carpeta -->
 <html lang="es">
 <head>
   <meta charset="UTF-8">
