@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     echo json_encode(["message" => "Método no permitido"]);
     http_response_code(405); // Method Not Allowed
     // Redirigir al homepage si el método no es POST
-    header("Location: /20250408_AplicacionWeb_Ejemplo_Registro_y_Login/homepage.html");
+    header("Location: /".basename(__DIR__)."/homepage.html");
     exit();
 }
 ?>
