@@ -1,9 +1,9 @@
 <?php
 class Database {
     private $host = "localhost";
-    private $db_name = "ejemplo_seguridad";
-    private $username = "root";
-    private $password = "henry";
+    private $db_name = "ejemplo_seguridad";  //tener presente colocar el valor según nombre de la base de datos
+    private $username = "root";  //tener presente colocar el valor según entorno del gestor de la base de datos
+    private $password = "";  //tener presente colocar el valor según entorno del gestor de la base de datos
     public $conn;
 
     public function getConnection() {
